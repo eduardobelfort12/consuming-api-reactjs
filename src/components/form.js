@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import './css/style.css'
 export default function Formulario(){   
 const [name, setName] = useState([])
@@ -27,7 +27,6 @@ const autocomplete = (id) =>{
             <input type={'text'} id="username" name="username" value={username}/>
             <input type={'text'} id="email" name="email" value={email}/> 
             <input type={'text'} id="phone" name="phone" value={phone}/>
-         
         </form>
     )
 
